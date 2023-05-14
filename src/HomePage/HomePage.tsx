@@ -2,6 +2,8 @@ import React from 'react';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import './HomePage.css'
 import NasarawaMap from '../assets/the-map-of-Nasarawa-State-showing-Awe-town-Source-wwwgooglecom.png'
+import PresenterPic from '../assets/rakiatladi.jpg'
+import BookPic from '../assets/books.png'
 
 const HomePage = () => {
   return (
@@ -11,6 +13,11 @@ const HomePage = () => {
         <div className="map">
           <FaMapMarkerAlt className="map-marker" />
           <img src={NasarawaMap} alt="nasarawa-map" className="nas-map" />
+          <div className="profile-container">
+          <img src={PresenterPic} alt="presenterpic" className="presenterpic" />
+          <img src={BookPic} alt="books" className="book" />
+
+          </div>
         </div>
       </div>
       <div className="article-container">

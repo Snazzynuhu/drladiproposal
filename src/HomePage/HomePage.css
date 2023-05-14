@@ -7,8 +7,12 @@
   
   /* Article Styles */
   .article-container {
-    margin: 12rem auto;
-    max-width: 80%;
+    margin: 53rem auto 10rem;
+    max-width: 100%;
+    padding: 1rem 10rem;
+    background-color: rgba(200, 2002, 200, 0.5);
+    z-index: 2;
+    position: relative;
   }
   
   .article-title {
@@ -61,4 +65,9 @@
     width: 100%;
     object-fit: contain;
   }
+  .profile-container{
+display: flex !important;
+margin-top: 1rem !important;
+  }
+
   
