@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import WardLoko from "../assets/ward.png";
 import "./WardStyle.css";
+import Footer from "../Footer/Footer";
 const Ward = () => {
   return (
     <>
@@ -114,6 +115,7 @@ const Ward = () => {
               a brighter future for the Loko LGA and Nasarawa State as a whole.
             </p>
       </div>
+      <Footer/>
     </>
   );
 };
