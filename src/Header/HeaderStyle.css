@@ -101,7 +101,7 @@
   }
   
   .wards.show {
-    width: 100rem;
+    width: 90rem;
     border-radius: 0.5rem;
     background-color: #fff;
     box-shadow: 2px 5px 4px 3px rgba(0, 0, 0, 0.2);
@@ -139,7 +139,7 @@
   }
   
   .explore.show {
-    width: 100rem;
+    width: 90rem;
     border-radius: 0.5rem;
     background-color: #fff;
     box-shadow: 2px 5px 4px 3px rgba(0, 0, 0, 0.2);
@@ -176,7 +176,7 @@
   }
   
   .policies.show {
-    width: 100rem;
+    width: 90rem;
     border-radius: 0.5rem;
     background-color: #fff;
     box-shadow: 2px 5px 4px 3px rgba(0, 0, 0, 0.2);
