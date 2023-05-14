@@ -1,0 +1,76 @@
+
+/* Map Styles */
+.ward-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-container {
+    width: 100%;
+    height: 500px;
+  }
+  
+  /* Article Styles */
+  .warticle-container {
+    margin: 7rem auto;
+    max-width: 80%;
+    padding-right: 3rem;
+  }
+  
+  .article-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .article-body {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .article-body p {
+    margin-bottom: 20px;
+  }
+  
+  .article-body ul {
+    list-style: disc;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .article-body ol {
+    list-style: decimal;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .article-body li {
+    margin-bottom: 10px;
+  }
+  
+  .article-body a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .article-body a:hover {
+    text-decoration: underline;
+  }
+  .wmap{
+    max-width: 100vw !important;
+    height: 20rem !important;
+    padding: 3rem;
+    margin: auto;
+  }
+  .wnas-map{
+    width: 100%;
+    object-fit: contain;
+  }
+  .bottom-content{
+    border: 1px solid red;
+    padding: 1rem;
+    margin: -3rem auto 2rem;
+    max-width: 95%;
+  }
+  
